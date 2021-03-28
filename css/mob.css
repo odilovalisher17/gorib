@@ -1,0 +1,126 @@
+body{
+    overflow-x: hidden;
+}
+/* Navbar */
+.navbar{
+    flex-direction: column;
+}
+.navbar img{
+    display: none;
+    padding: 10px 15px;
+}
+.logo{
+    flex-direction: column;
+}
+.nav{
+    flex-direction: column;
+}
+
+/* Showcase */
+.showcase{
+    flex-direction: column;
+}
+.web img{
+    position: relative;
+    top: 12px;
+}
+.picture{
+    left: 100px;
+    top:0;
+}
+
+/* Section */
+.inform{
+    flex-direction: column;
+}
+.hero{
+    padding-left: 20px;
+}
+.killers{
+    text-align: center;
+}
+.killers-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.d-img3{
+    position: relative;
+    left: 120px;
+}
+
+/* My service */
+.design{
+    grid-template-columns: repeat(1, 1fr);
+}
+
+/* My portfolio */
+.portfolio{
+    grid-template-columns: repeat(1, 1fr);
+    padding-left: 5px;
+}
+.p1{
+    width: 100%;
+    margin: 10px 0;
+}
+.p2{
+    width: 100%;
+    margin: 10px 0;
+}
+.p3{
+    width: 100%;
+    margin: 10px 0;
+}
+.p4{
+    width: 100%;
+    margin: 10px 0;
+}
+.p5{
+    width: 100%;
+    margin: 10px 0;
+}
+.p6{
+    width: 100%;
+    margin: 10px 0;
+}
+.p7{
+    width: 100%;
+    margin: 10px 0;
+}
+.p8{
+    width: 100%;
+    margin: 10px 0;
+}
+
+.port-text{
+    padding-top: 5px;
+}
+
+/* Contact  */
+
+.form input{
+    width: 100%;
+}
+.contact form{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/* Blog */
+.blog{
+    flex-direction: column;
+}
+.blog div{
+    margin-bottom: 20px;
+}
+
+/* Footer */
+.footer-icons{
+    padding: 0 15px;
+}
+.footer-icons img{
+    width: 50px;
+    padding: 5px 10px;
+}
+
+

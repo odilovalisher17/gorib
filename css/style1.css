@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Utility classes */
+.green{
+    color: rgb(26, 228, 103);
+}
+
+/* Portfolio */
+.portfolio-head{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 50px;
+}
+.portfolio{                               
+    padding-left:50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.p-text{
+ padding: 20px 40px;
+ background: rgba(100, 185, 224, 0.5);
+ color: white;
+}
+.p1{
+    background: url("../img/portfolio/01.png") no-repeat center /cover;
+    height: 250px;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.p2{
+    background: url("../img/portfolio/02.png") no-repeat center /cover;
+    height: 250px;
+    width: 300px;
+    text-align: center;
+}
+.p3{
+    background: url("../img/portfolio/03.png") no-repeat center /cover;
+    height: 250px;
+    width: 300px;
+    text-align: center;
+}
+.p4{
+    background: url("../img/portfolio/04.png") no-repeat center /cover;
+    height: 250px;
+    width: 300px;
+    text-align: center;
+}
+.p5{
+    background: url("../img/portfolio/05.png") no-repeat center /cover;
+    height: 250px;
+    width: 300px;
+    text-align: center;
+}
+.p6{
+    background: url("../img/portfolio/06.png") no-repeat center /cover;
+    height: 250px;
+    width: 300px;
+    text-align: center;
+}
+.p7{
+    background: url("../img/portfolio/07.png") no-repeat center /cover;
+    height: 250px;
+    width: 300px;
+    text-align: center;
+}
+.p8{
+    background: url("../img/portfolio/08.png") no-repeat center /cover;
+    height: 250px;
+    width: 300px;
+    text-align: center;
+}
+.port-p{
+    position: relative;
+    top: 192px;
+    background:rgba(54, 196, 206, 0.6);
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.port-text{
+    padding-top: 50px;
+    font-size: 19px;
+    padding-bottom: 80px;
+    text-align: center;
+    position: relative;
+    right: 30px;
+}
+.port-text span{
+    font-size: 35px;
+}
+
+/* Contact */
+.contact{
+    background: rgb(180, 233, 211);
+}
+.contact-head{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 40px;
+}
+.contact-input{
+    padding: 15px 30px;
+    border-radius: 20px;
+    border: 1px solid  rgb(26, 228, 103);
+    outline: none;
+}
+.contact form{
+    padding-left: 500px;
+    padding-right: 500px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.contact button{
+    padding: 10px 20px;
+    background: rgb(26, 228, 103);
+    border-radius: 15px;
+    border: none;
+    color: white;
+}
+
+/* Blog */
+.blog-head{
+    padding: 40px 0;
+    text-align: center;
+    font-size: 40px;
+}
+.blog{
+    display: flex;
+    padding: 10px 30px;
+}
+.blog img{
+    width: 100%;
+}
+.blog div{
+    margin: 0 20px;
+    box-shadow: 5px 5px 4px grey;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.blog button{
+    padding: 10px 15px;
+    border-radius: 15px;
+    border: 1px  rgb(26, 228, 103) solid ;
+    background: white;
+}
+
+/* Footer */
+.footer-icons{
+ text-align: center;
+ display: flex;
+ justify-content: center;
+padding: 60px 30px;
+}
+.footer-icons img{
+    color: green;
+    width: 160px;
+    padding: 5px 50px;
+}
+.footer-text{
+    background:  rgb(26, 228, 103);
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    padding: 15px 0;
+}
+.footer-text span{
+    color: black;
+}
+
+
+
